@@ -2,9 +2,7 @@
 
 const calcButton = document.querySelector(".btn");
 
-calcButton.addEventListener("click", function () {
-  // let arr = [];
-
+calcButton.addEventListener("click", function (e) {
   const calcMean = function (arr) {
     let sum = 0;
     for (let i = 0; i < arr.length; i++) {
